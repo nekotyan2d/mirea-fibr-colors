@@ -88,7 +88,7 @@
             <Modal
                 title="Сохранить палитру"
                 v-if="showSaveDialog"
-                @click="showSaveDialog = false">
+                @close="showSaveDialog = false">
                 <input
                     v-model="saveName"
                     type="text"
