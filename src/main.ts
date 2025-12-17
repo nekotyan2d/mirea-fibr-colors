@@ -7,7 +7,7 @@ import indexPage from "./pages/index.vue";
 const pinia = createPinia();
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory("/mirea-fibr-colors/"),
     routes: [
         {
             path: "/",
