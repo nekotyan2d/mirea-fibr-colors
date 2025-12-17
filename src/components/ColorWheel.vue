@@ -132,7 +132,7 @@ const drawColorWheel = () => {
     // Рисуем центральный белый круг с границей
     ctx.beginPath();
     ctx.arc(centerX, centerY, innerRadius, 0, 2 * Math.PI);
-    ctx.fillStyle = "white";
+    ctx.fillStyle = "#0d0812";
     ctx.fill();
     ctx.strokeStyle = "#e0e0e0";
     ctx.lineWidth = 2;
