@@ -1,0 +1,16 @@
+:root {
+    --bg-dark: hsl(267 63% 2%);
+    --bg: hsl(272 40% 5%);
+    --bg-light: hsl(271 24% 10%);
+    --text: hsl(270 100% 98%);
+    --text-muted: hsl(270 24% 73%);
+    --highlight: hsl(271 14% 42%);
+    --border: hsl(271 18% 31%);
+    --border-muted: hsl(272 25% 20%);
+    --primary: hsl(271 54% 76%);
+    --secondary: hsl(87 35% 61%);
+    --danger: hsl(9 26% 64%);
+    --warning: hsl(52 19% 57%);
+    --success: hsl(146 17% 59%);
+    --info: hsl(217 28% 65%);
+}
