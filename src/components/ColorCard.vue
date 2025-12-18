@@ -104,7 +104,6 @@ const toggleLock = () => {
 }
 
 .color-value {
-    font-family: "Courier New", monospace;
     font-size: 14px;
     font-weight: 600;
 }

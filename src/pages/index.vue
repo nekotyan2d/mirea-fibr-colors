@@ -22,21 +22,25 @@
                     <button
                         class="button"
                         @click="showImportModal = true">
+                        <Icon icon="mdi:import" />
                         Импорт
                     </button>
                     <button
                         class="button"
                         @click="handleShare">
+                        <Icon icon="mdi:share-outline" />
                         Поделиться
                     </button>
                     <button
                         class="button"
                         @click="showSaveDialog = true">
+                        <Icon icon="material-symbols:save-outline-rounded" />
                         Сохранить
                     </button>
                     <button
                         class="button"
                         @click="showExportModal = true">
+                        <Icon icon="mdi:export" />
                         Экспорт
                     </button>
                 </div>

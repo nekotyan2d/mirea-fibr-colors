@@ -5,6 +5,7 @@
                 class="button"
                 @click="$emit('generate')"
                 title="Или нажмите Space">
+                <Icon icon="mingcute:random-fill" />
                 Случайная палитра
             </button>
 
@@ -86,6 +87,8 @@
 </template>
 
 <script setup lang="ts">
+import { Icon } from "@iconify/vue";
+
 interface Props {
     format: ColorFormat;
     colorCount: number;

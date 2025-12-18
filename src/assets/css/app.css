@@ -26,6 +26,9 @@ button {
     outline: none;
     background-color: transparent;
     color: inherit;
+    display: flex;
+    gap: 4px;
+    align-items: center;
 }
 
 .button {
